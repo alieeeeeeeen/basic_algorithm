@@ -7,3 +7,9 @@ Basic algorithms
 
 # Binary Search
 must utilize in ***sorted*** array
+
+# Sort
+## Bubble Sort
+   the largest values bubble up to the top
+## Selection Sort
+    it places small values into sorted again
