@@ -3,7 +3,6 @@ function selectionSort(arr) {
         let min = i;
     
         for(var j= i + 1; j < arr.length; j++) {
-            console.log(arr[j], arr[min], j , min)
             if(arr[j] < arr[min]) {
                 min = j;
             }
