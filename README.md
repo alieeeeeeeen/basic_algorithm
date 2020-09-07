@@ -13,3 +13,5 @@ must utilize in ***sorted*** array
    the largest values bubble up to the top
 ## Selection Sort
     it places small values into sorted again
+## Insertion Sort
+    add conditional methods in the for loop
