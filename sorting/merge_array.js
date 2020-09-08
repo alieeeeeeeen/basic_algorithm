@@ -6,7 +6,7 @@ function mergeArray(arr1, arr2) {
         if(arr1[i] > arr2[j]) {
             result.push(arr2[j]);
             j++;
-        } else if (arr1[i] < arr2[j]) {
+        } else {
             result.push(arr1[i]);
             i++;
         }
@@ -20,4 +20,12 @@ function mergeArray(arr1, arr2) {
         j++;
     }
     return result;
+}
+
+function mergeSort(arr) {
+    if(arr.length <= 1) return arr;
+    let middle  = Math.floor(arr.length / 2);
+    let left = mergeSort(arr.slice(0, middle));
+    let right = mergeSort(arr.slice(middle));
+    return mergeArray(left, right);
 }
